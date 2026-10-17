@@ -4,12 +4,6 @@ title: 名片盒 CardBox 隱私權政策 / Privacy Policy
 
 # 名片盒 CardBox 隱私權政策 / Privacy Policy
 
-> 生效日期 / Effective date: 2026-10-07（前一版：2026-10-01）
-> 適用產品：名片盒 CardBox（iOS）
-> 開發者聯絡方式 / Contact: alicexhaha@gmail.com
-
----
-
 ## 繁體中文
 
 ### 一、我們不收集你的資料
@@ -78,10 +72,6 @@ title: 名片盒 CardBox 隱私權政策 / Privacy Policy
 ### 十、政策變更
 
 若未來功能改變導致資料處理方式改變（例如新增雲端服務），我們會更新本政策並在 App 內告知。重大變更不會在未告知的情況下生效。
-
-### 十一、聯絡我們
-
-隱私相關問題請來信：alicexhaha@gmail.com
 
 ---
 
@@ -154,6 +144,8 @@ The app is not directed at children under 13 and, as it collects no personal dat
 
 If future features change how data is handled (e.g., adding a cloud service), we will update this policy and notify you in the app before material changes take effect.
 
-### 11. Contact
+---
 
-For privacy questions: alicexhaha@gmail.com
+生效日期 / Effective date：2026-10-07（前一版 / Previous version：2026-10-01）<br>
+適用產品 / Applies to：名片盒 CardBox（iOS）<br>
+聯絡方式 / Contact：info@summeriz.com
