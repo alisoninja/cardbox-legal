@@ -11,7 +11,7 @@ title: 名片盒 CardBox 隱私權政策 / Privacy Policy
 名片盒是一款「資料留在你手上」的名片管理 App：
 
 - **沒有帳號系統後端**：你掃描與建立的所有名片資料（姓名、電話、Email、地址、公司、職稱、名片影像、備註、地圖座標）儲存在你的裝置本機。另有兩種情況會有副本在裝置之外：Pro 的 iCloud 同步（第二節），以及 iOS 本身的系統備份（第四節）。
-- **沒有我們的伺服器**：App 不會把任何資料傳送到開發者的伺服器——我們根本沒有伺服器。名片文字辨識（OCR）完全在裝置上執行（Apple Vision framework），影像不會離開你的裝置。
+- **沒有我們的伺服器**：App 不會把任何資料傳送到開發者的伺服器——我們根本沒有伺服器。名片文字辨識（OCR）完全在裝置上執行（Apple Vision framework）；辨識本身不需要網路，也不會把名片影像送給任何人。但名片影像會被納入 iOS 系統備份，也會在你主動匯出、備份或分享時離開裝置（見第四節）。
 - **會把資料交出裝置的功能，先講清楚**：人脈地圖（經你同意後把地址交給 Apple 換算座標，見第三節）、在名片上點地址開 Apple 地圖、以及用 LINE 傳送問候語（見第四節）。這些都不經過我們，我們也收不到。
 - **沒有追蹤與分析**：App 不含任何廣告 SDK、分析工具或崩潰回報服務，不會建立廣告識別碼，也不會跨 App 追蹤你。
 
@@ -82,7 +82,7 @@ title: 名片盒 CardBox 隱私權政策 / Privacy Policy
 CardBox is a business-card manager where your data stays with you:
 
 - **No backend, no accounts**: everything you scan or create (names, phone numbers, emails, addresses, companies, titles, card images, notes, map coordinates) is stored locally on your device. Copies exist outside the device in two cases: Pro iCloud sync (section 2) and iOS's own device backups (section 4).
-- **No servers of ours**: the app never sends any data to the developer — we run no servers at all. Card text recognition (OCR) runs entirely on-device using Apple's Vision framework; images never leave your device.
+- **No servers of ours**: the app never sends any data to the developer — we run no servers at all. Card text recognition (OCR) runs entirely on-device using Apple's Vision framework: recognition itself needs no network and never hands your card images to anyone. Card images are, however, included in iOS device backups, and they leave your device whenever you export, back up, or share them yourself (see section 4).
 - **Features that hand data off your device, stated up front**: the Contact Map (with your consent, sends addresses to Apple for coordinates — see section 3), tapping an address to open Apple Maps, and sending a greeting via LINE (see section 4). None of these go through us, and we never receive the data.
 - **No tracking or analytics**: the app contains no ad SDKs, analytics, or crash-reporting services, creates no advertising identifiers, and does not track you across apps.
 
@@ -146,6 +146,6 @@ If future features change how data is handled (e.g., adding a cloud service), we
 
 ---
 
-生效日期 / Effective date：2026-10-07（前一版 / Previous version：2026-10-01）<br>
+生效日期 / Effective date：2026-10-21（前一版 / Previous version：2026-10-07）<br>
 適用產品 / Applies to：名片盒 CardBox（iOS）<br>
 聯絡方式 / Contact：info@summeriz.com
