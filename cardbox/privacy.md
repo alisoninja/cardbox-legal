@@ -13,6 +13,7 @@ title: 名片盒 CardBox 隱私權政策 / Privacy Policy
 - **沒有帳號系統後端**：你掃描與建立的所有名片資料（姓名、電話、Email、地址、公司、職稱、名片影像、備註、地圖座標）儲存在你的裝置本機。另有兩種情況會有副本在裝置之外：Pro 的 iCloud 同步（第二節），以及 iOS 本身的系統備份（第四節）。
 - **沒有我們的伺服器**：App 不會把任何資料傳送到開發者的伺服器——我們根本沒有伺服器。名片文字辨識（OCR）完全在裝置上執行（Apple Vision framework）；辨識本身不需要網路，也不會把名片影像送給任何人。但名片影像會被納入 iOS 系統備份，也會在你主動匯出、備份或分享時離開裝置（見第四節）。
 - **會把資料交出裝置的功能，先講清楚**：人脈地圖（經你同意後把地址交給 Apple 換算座標，見第三節）、在名片上點地址開 Apple 地圖、以及用 LINE 傳送問候語（見第四節）。這些都不經過我們，我們也收不到。
+- **裝置上的 AI 欄位辨識（可關閉）**：如果你的 iPhone 支援且已開啟 Apple 智慧，掃描名片時 App 會用 **Apple 內建在裝置上的語言模型**（FoundationModels）分辨哪一行是姓名、哪一行是職稱或公司。這段推論**完全在你的 iPhone 上執行、不需要網路，名片內容不會送到 Apple、不會送到我們、也不會送到任何其他地方**；App 用的是裝置端模型，沒有、也不會改用 Apple 的 Private Cloud Compute。模型填進欄位的每一個值都必須真的出現在名片的辨識文字裡，找不到的一律丟棄；電話、Email 與網址一律由 App 既有的規則辨識處理，不交給模型。你可以隨時在「設定 → 進階 → 使用裝置上的 AI 辨識」關閉它，關閉後掃描會完全走原本的規則辨識。
 - **沒有追蹤與分析**：App 不含任何廣告 SDK、分析工具或崩潰回報服務，不會建立廣告識別碼，也不會跨 App 追蹤你。
 
 ### 二、iCloud 同步（Pro 功能，可選）
@@ -84,6 +85,7 @@ CardBox is a business-card manager where your data stays with you:
 - **No backend, no accounts**: everything you scan or create (names, phone numbers, emails, addresses, companies, titles, card images, notes, map coordinates) is stored locally on your device. Copies exist outside the device in two cases: Pro iCloud sync (section 2) and iOS's own device backups (section 4).
 - **No servers of ours**: the app never sends any data to the developer — we run no servers at all. Card text recognition (OCR) runs entirely on-device using Apple's Vision framework: recognition itself needs no network and never hands your card images to anyone. Card images are, however, included in iOS device backups, and they leave your device whenever you export, back up, or share them yourself (see section 4).
 - **Features that hand data off your device, stated up front**: the Contact Map (with your consent, sends addresses to Apple for coordinates — see section 3), tapping an address to open Apple Maps, and sending a greeting via LINE (see section 4). None of these go through us, and we never receive the data.
+- **On-device AI field recognition (can be turned off)**: if your iPhone supports Apple Intelligence and you have turned it on, scanning a card also uses **Apple's on-device language model** (FoundationModels) to work out which line is the person's name and which is the job title or company. That inference **runs entirely on your iPhone and needs no network: the card's contents are not sent to Apple, not sent to us, and not sent anywhere else**. The app uses the on-device model only; it does not use, and will not fall back to, Apple's Private Cloud Compute. Every value the model fills in must actually appear in the recognised text of the card — anything it cannot be found in is discarded — and phone numbers, emails and websites are always handled by the app's existing rule-based recognition rather than the model. You can turn it off at any time in Settings → Advanced → Use on-device AI recognition, after which scanning uses the rule-based recognition alone.
 - **No tracking or analytics**: the app contains no ad SDKs, analytics, or crash-reporting services, creates no advertising identifiers, and does not track you across apps.
 
 ### 2. iCloud sync (optional, Pro)
@@ -146,6 +148,6 @@ If future features change how data is handled (e.g., adding a cloud service), we
 
 ---
 
-生效日期 / Effective date：2026-10-21（前一版 / Previous version：2026-10-07）<br>
+生效日期 / Effective date：2026-10-22（前一版 / Previous version：2026-10-21）<br>
 適用產品 / Applies to：名片盒 CardBox（iOS）<br>
 聯絡方式 / Contact：info@summeriz.com
